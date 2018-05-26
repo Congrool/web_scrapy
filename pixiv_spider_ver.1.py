@@ -1,6 +1,7 @@
 # date:2018/5/26
 # 抓取pixiv静态网页上的特定图片
 # 并保存在本地
+# 包含的问题：没有抓取（找不到）原图片，估计原因可能是没有用POST登陆
 import requests
 from bs4 import BeautifulSoup
 import re
